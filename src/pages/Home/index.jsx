@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet'
 import './style.css'
+// ATOMS
 
 export default function Home(){
    return(
@@ -7,7 +8,9 @@ export default function Home(){
          <Helmet>
             <title>Blanja - Home</title>
          </Helmet>
-         <h1 className="displayRow inDevelopment">Home</h1>
+         <div className="displayColumn inDevelopment">
+            <h1>Home - In Development</h1>
+         </div>
       </div>
    )
 }

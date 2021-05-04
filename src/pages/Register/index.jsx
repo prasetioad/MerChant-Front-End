@@ -7,7 +7,9 @@ export default function Register(){
          <Helmet>
             <title>Blanja - Register</title>
          </Helmet>
-         <h1 className="displayRow inDevelopment">Register</h1>
+         <div className="displayColumn inDevelopment">
+            <h1>Register - In Development</h1>
+         </div>
       </div>
    )
 }

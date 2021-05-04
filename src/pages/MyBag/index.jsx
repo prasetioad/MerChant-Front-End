@@ -7,7 +7,9 @@ export default function MyBag(){
          <Helmet>
             <title>Blanja - My Bag</title>
          </Helmet>
-         <h1 className="displayRow inDevelopment">My Bag</h1>
+         <div className="displayColumn inDevelopment">
+            <h1>My Bag - In Development</h1>
+         </div>
       </div>
    )
 }

@@ -7,7 +7,9 @@ export default function ConfirmPassword(){
          <Helmet>
             <title>Blanja - Confirm Password</title>
          </Helmet>
-         <h1 className="displayRow inDevelopment">Confirm Password</h1>
+         <div className="displayColumn inDevelopment">
+            <h1>Confirm Password - In Development</h1>
+         </div>
       </div>
    )
 }

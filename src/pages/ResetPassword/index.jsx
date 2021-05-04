@@ -7,7 +7,9 @@ export default function ResetPassword(){
          <Helmet>
             <title>Blanja - Reset Password</title>
          </Helmet>
-         <h1 className="displayRow inDevelopment">Reset Password</h1>
+         <div className="displayColumn inDevelopment">
+            <h1>Reset Password - In Development</h1>
+         </div>
       </div>
    )
 }
