@@ -19,8 +19,8 @@ function Index() {
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2 },
-        { width: 768, itemsToShow: 3 },
-        { width: 1200, itemsToShow: 4 },
+        { width: 768, itemsToShow: 2 },
+        { width: 1200, itemsToShow:3 },
       ];
     const handleBack = () => {
         const target = document.getElementsByClassName('homeCorousel1BodyItem')
@@ -119,7 +119,13 @@ function Index() {
                     <img src="./asset/ian-dooley-10ca-K3e6Ko-unsplash 1.png" alt=""/>
                 </div>
                 <div>
+                    <img src="./asset/benjamin-voros-TnNo84AJJ5A-unsplash 1.png" alt=""/>
+                </div>
+                <div>
                     <img src="./asset/ian-dooley-10ca-K3e6Ko-unsplash 1.png" alt=""/>
+                </div>
+                <div>
+                    <img src="./asset/benjamin-voros-TnNo84AJJ5A-unsplash 1.png" alt=""/>
                 </div>
                 <div>
                     <img src="./asset/ian-dooley-10ca-K3e6Ko-unsplash 1.png" alt=""/>
